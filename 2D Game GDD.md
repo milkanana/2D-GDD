@@ -8,7 +8,8 @@ Description....
 ##Ideation
 **Core Mechanic**: compare edges to switch platforms
 
-
+##Interface
+##Mechanics
 ##Controls
 
 **Keyboard Controls:**
@@ -22,7 +23,13 @@ Space: jump
 ##Programming
 **Core Mechanic**:choose edge --> wait for current platform and target platform's  --> change platforms --> repeat
 
+**Scripts**: 
+Player Script,
+--> Rotate when choosing platforms...
 
+Platform Movement,
+Dragonfly,
+......
 
 **Features**:
 platforms drifting out of visible screen
