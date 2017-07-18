@@ -11,12 +11,13 @@ Description....
 
 ##Controls
 
-Keyboard Controls:
+**Keyboard Controls:**
 up/down: choose edge
 left/right arrow: choose jump direction
+Space: jump
 
 
-18.07.: Edit to use controls for tablet
+**18.07.:** Edit to use controls for tablet
 
 ##Programming
 **Core Mechanic**:choose edge --> wait for current platform and target platform's  --> change platforms --> repeat
@@ -31,7 +32,7 @@ Enemies sinking platforms
 
 ![Prototype Screenshot](http://orig03.deviantart.net/6ea9/f/2017/179/b/c/screenshot_by_mxlk-dbebnxo.jpg)
 
-## Art
+## Visuals
 
 ### Conception
 
@@ -82,7 +83,61 @@ Each team member creates a vision for the prototype
 
 </br>
 
-####Fake Screenshot Iteration
+#####Fake Screenshot Iteration
+
+
+#####Fake Screenshots 2
+
+![](http://orig10.deviantart.net/d234/f/2017/179/1/f/02characters_katharina_by_mxlk-dbebnyi.jpg)
+<div style="text-align: right"> *Player Design (Katharina)*</div>
+![](http://img11.deviantart.net/9c72/i/2017/179/9/3/02fakescreenshot_an_katharina_04_by_mxlk-dbeby1q.jpg)
+<div style="text-align: right"> *Fake Screenshot 2 (Katharina)*</div>
+![](http://orig08.deviantart.net/ae93/f/2017/179/f/1/02fakescreenshot_an_katharina_03_by_mxlk-dbeby1w.jpg)
+<div style="text-align: right"> *Fake Screenshot 2 (Katharina)*</div>
+![](http://img03.deviantart.net/dd9e/i/2017/179/2/9/02fakescreenshot_an_katharina_07_by_mxlk-dbeby0y.jpg)
+<div style="text-align: right"> *Fake Screenshot 2 (Katharina)*</div>
+
+![](http://orig15.deviantart.net/4dd8/f/2017/179/d/b/screenshot_2_revised_by_mxlk-dbebnxx.jpg)
+<div style="text-align: right"> *Fake Screenshot (An)*</div>
+
+
+</br>
+ 
+>**Feedback**:
+>**+** broken oulines, stones more visible;
+>**-** player character too unfriendly (aggressive)--> too detailed;
+>**Suggestions**:
+>player character: ladybug, 
+
+
+
+####Animation
+
+**Player**
+![Begin flight](http://orig12.deviantart.net/0926/f/2017/199/6/c/02spritesheet_ladybug_startflight_by_mxlk-dbgralm.png)
+<div style="text-align: right"> *Spritesheet (open wings)*</div>
+![flight](http://orig12.deviantart.net/96a8/f/2017/199/6/6/02spritesheet_ladybug_flight_by_mxlk-dbgralr.png)
+<div style="text-align: right"> *Spritesheet (flight)*</div>
+![End of flight](http://orig10.deviantart.net/a5a7/f/2017/199/6/6/02spritesheet_ladybug_endflight_by_mxlk-dbgram5.png)
+<div style="text-align: right"> *Spritesheet (close wings)*</div>
+![Idle](http://orig09.deviantart.net/5bb1/f/2017/199/2/e/02spritesheet_ladybug_waiting_by_mxlk-dbgralg.png)
+<div style="text-align: right"> *Spritesheet (idle)*</div>
+
+**Water**:
+Glistening: Unity, Particle system
+Caustics: Layering textures
+
+
+####Sound
+**To Do**: 
+SFX: (Sound Effects), cbanging platforms, dragonflies
+FOL: (Foleys), wings flapping,
+BG: (Background Sounds), water sounds(?)
+MX: (Music Effects), Not needed
+DX: (Dialogue), Not needed 
+
+
+##Project Management
 
 #####WorkFLOW Planning:
 
@@ -117,36 +172,6 @@ Effects: Daniel
 Feedback: get Feedback for player character;
 </br>
 
-#####Fake Screenshots 2
-
-![](http://orig10.deviantart.net/d234/f/2017/179/1/f/02characters_katharina_by_mxlk-dbebnyi.jpg)
-<div style="text-align: right"> *Player Design (Katharina)*</div>
-![](http://img11.deviantart.net/9c72/i/2017/179/9/3/02fakescreenshot_an_katharina_04_by_mxlk-dbeby1q.jpg)
-<div style="text-align: right"> *Fake Screenshot 2 (Katharina)*</div>
-![](http://orig08.deviantart.net/ae93/f/2017/179/f/1/02fakescreenshot_an_katharina_03_by_mxlk-dbeby1w.jpg)
-<div style="text-align: right"> *Fake Screenshot 2 (Katharina)*</div>
-![](http://img03.deviantart.net/dd9e/i/2017/179/2/9/02fakescreenshot_an_katharina_07_by_mxlk-dbeby0y.jpg)
-<div style="text-align: right"> *Fake Screenshot 2 (Katharina)*</div>
-
-![](http://orig15.deviantart.net/4dd8/f/2017/179/d/b/screenshot_2_revised_by_mxlk-dbebnxx.jpg)
-<div style="text-align: right"> *Fake Screenshot (An)*</div>
-
-
-</br>
- 
->**Feedback**:
->**+** broken oulines, stones more visible;
->**-** player character too unfriendly (aggressive)--> too detailed;
->**Suggestions**:
->player character: ladybug, 
-
-
-
-####Animation
-####Sound
-
-
-##Production
 
 ####To DO
 || Backlog |To Do  | in Work|  Done|
