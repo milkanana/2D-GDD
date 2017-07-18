@@ -7,6 +7,11 @@ Description....
 
 ##Ideation
 **Core Mechanic**: compare edges to switch platforms
+**Platform movement**:
+> Initial Ideas:
+> [1) Rows](https://www.dropbox.com/s/pssg9au6k6l2g4p/Untitled-1.gif?dl=0) [2) Set Paths](https://www.dropbox.com/s/rdwix1552v4xhdu/Untitled-2.gif?dl=0)
+
+
 
 ##Interface
 ##Mechanics
@@ -20,7 +25,7 @@ Space: jump
 
 **18.07.:** Edit to use controls for tablet
 
-##Programming
+##Programming/Technical Solutions
 **Core Mechanic**:choose edge --> wait for current platform and target platform's  --> change platforms --> repeat
 
 **Scripts**: 
@@ -28,7 +33,10 @@ Player Script,
 --> Rotate when choosing platforms...
 
 Platform Movement,
+--> Boids Flocking
 Dragonfly,
+
+etc.
 ......
 
 **Features**:
