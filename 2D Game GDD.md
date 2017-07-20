@@ -3,7 +3,32 @@
 [TOC]
 
 ## Project Overview
-Description....
+**Description**....
+
+**General**
+Target Groups: Casual Gamers, players of all ages (except for those with insectophobia)
+Summary of Mechanics, Gameplay, Interfaces, Features ... 
+
+
+**Resources**
+Time: 13 Weeks (May - August)
+Team: An, Daniel, Katharina
+Technics: Unity 3D (Unity 2D Framework), PC, Android Tablet, 
+
+** Constraints: **
+Level Scope: 1-4 Screens
+Tablet: 4:3 (2048x1536/2732x2048)
+
+**Goals**
+Prototype --> Artstyle --> Fixing --> Balancing --> Final (GDD, Game, etc.)
+
+**Deadlines**:
+(09.06.2017) High Concept Document
+(04.08.2017) Part 1 (Game)
+(03.09.2017) Part 2  (High Concept Document (final), Game Design Document, opt.: Game, bugfree)
+
+
+###One Pager
 
 ##Ideation
 **Core Mechanic**: compare edges to switch platforms
@@ -26,18 +51,6 @@ Space: jump
 **18.07.:** Edit to use controls for tablet
 
 ##Programming/Technical Solutions
-**Core Mechanic**:choose edge --> wait for current platform and target platform's  --> change platforms --> repeat
-
-**Scripts**: 
-Player Script,
---> Rotate when choosing platforms...
-
-Platform Movement,
---> Boids Flocking
-Dragonfly,
-
-etc.
-......
 
 **Features**:
 platforms drifting out of visible screen
@@ -46,6 +59,31 @@ Enemies sinking platforms
 
 
 ![Prototype Screenshot](http://orig03.deviantart.net/6ea9/f/2017/179/b/c/screenshot_by_mxlk-dbebnxo.jpg)
+</br>
+
+**Core Mechanic**: choose edge --> wait for current platform and target platform's  --> change platforms --> repeat
+
+**Scripts**: 
+
+*Player Script:*
+--> rotate when choosing edge
+--> swipe to change platforms
+
+*Platform Movement:*
+--> (initially) Boids Flocking, 
+- changes made due to being too heavy on performance
+- interfered with other features
+
+--> Platforms circulate within group, 
+--> group center follows certain goal point
+
+*Dragonfly:*
+- Procedure:
+ 1. chooses platform
+ 2. parents itself to it
+ 3. timer
+ 4. releases and flies away
+ 5. platform destroyed
 
 ## Visuals
 
@@ -147,7 +185,7 @@ Caustics: Layering textures
 **To Do**: 
 SFX: (Sound Effects), cbanging platforms, dragonflies
 FOL: (Foleys), wings flapping,
-BG: (Background Sounds), water sounds(?)
+BG: (Background Sounds), water sounds(?), Leaves dropping
 MX: (Music Effects), Not needed
 DX: (Dialogue), Not needed 
 
@@ -158,7 +196,7 @@ DX: (Dialogue), Not needed
 
 **Requirements**:
 
-Assets:
+**Assets:**
 1. platforms sprites
 2. player character sprite
 3. player's tool sprite
@@ -173,7 +211,7 @@ Assets:
 **Sprites**: 
 Player + tool: Katharina
 Enermy(cleaning): An 
-Background: An
+Background (Platforms,Ground): An
 Additional: An
 
 **Animation**:
