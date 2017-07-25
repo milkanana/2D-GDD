@@ -1,5 +1,4 @@
-#2D Game Design Document AYAYAY
-
+#2D Game Design Document
 
 
 [TOC]
